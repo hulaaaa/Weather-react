@@ -1,0 +1,33 @@
+.card-body{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: space-between;
+}
+#header{
+    display: flex;
+    align-items: center;
+}
+#header h2#city{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#temp{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#tempMain{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 15rem;
+    height: fit-content;
+    opacity: 1;
+}
+#symbTemp{
+    margin-top: 1.5rem;
+}
